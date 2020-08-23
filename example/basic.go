@@ -13,7 +13,7 @@ func check(err error) {
 }
 
 func main() {
-	c := shiori.NewClient("MahnmrRK7zeMwVKYZRYtxyABtGmV6MPY", "https://shiori.zekro.de/api")
+	c := shiori.NewClient("shiori_gateway_token", "https://shiori.zekro.de/api")
 
 	newLink, err := c.CreateLink(&shiori.Link{
 		Url:         "https://zekro.de",
